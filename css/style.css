@@ -1,0 +1,99 @@
+.navbar {
+  background-color: #FFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.search {
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #BBB;
+    width: 70%;
+    margin-right: 7px;
+    margin-bottom: unset;
+    border-radius: 11px;
+}
+.search .prepend {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 54px;
+    right: 6px;
+    left: unset;
+    background-color: #E0BC1E;
+    padding: 5px 17px;
+    border-radius: 11px;
+    top: 5px;
+    bottom: 5px;
+}
+.search .prepend img {
+    height: 20px;
+    margin-top: -2px;
+}
+
+
+.search .form-control {
+    background: none;
+    border: none;
+    height: auto;
+    padding: 10px 26px;
+}
+
+.search .form-control:focus {
+    box-shadow: none;
+}
+.search .form-control::placeholder {
+    color: #BBB;
+    font-size: 13px;
+    line-height: 15;
+}
+
+.inner {
+  height: 20px;
+  width: 20px;
+}
+.cart {
+  height: 45px;
+  width: 45px;
+}
+.line {
+  box-sizing: border-box;
+  height: 44.5px;
+  width: 1px;
+  border: 1px solid #BBB;
+  margin-left: 12px;
+}
+.navbar .nav-item .nav-link {
+	padding: 6px 20px; 
+}
+.btn-toksul {
+	border: unset;
+	border-radius: 8px;
+	padding: 8px 20px;
+	text-align: center;
+	transition: none;
+}
+.btn-toksul:hover {
+	text-decoration: none;
+}
+.btn-toksul.btn-toksul-primary {
+	background-color: #E0BC1E;
+	color: #FFF;
+}
+.btn-toksul.btn-toksul-primary:hover {
+	color: #FFF;
+}
+.btn-toksul.btn-primary.btn-shadow {
+	box-shadow: 0 10px 25px 0 #E0BC1E;
+}
+.btn-toksul.btn-toksul-primary-outline {
+	background-color: #FFF;
+	color: #E0BC1E;
+	border: 1px solid #E0BC1E;
+}
+.btn-toksul.btn-toksul-primary-outline:hover {
+	color: #E0BC1E;
+}
+.btn-toksul.btn-toksul-secondary {
+	background-color: #527E03;
+	color: #FFF;
+}
